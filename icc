@@ -1,0 +1,12 @@
+pi = 3.14
+a = "el valor de pi es : " + str(pi)
+print(a)
+b = "hola como estas hola".replace("hola", "chau")
+print(b)
+c = b.capitalize()
+print(c)
+print(",".join(b))
+print(b.split(" "))
+lista = ["juan", "pepe"]
+lista.insert(1, "jose")
+print(lista)
